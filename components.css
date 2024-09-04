@@ -1,0 +1,73 @@
+textarea {
+  min-height: 210px;
+}
+
+input,
+textarea {
+  width: 344px;
+  height: 40px;
+  padding: 8px 12px 8px 12px;
+  border: none;
+  border-radius: 12px;
+  color: #5b5c5e;
+  background-color: #eeeff0;
+  font-size: 16px;
+}
+input:hover,
+textarea:hover {
+  color: #5b5c5e;
+  background-color: #dcdee0;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #1b1c1e;
+  color: #1b1c1e;
+  background-color: transparent;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+button.primary {
+  color: #fff;
+  background-color: #6b3c9b;
+}
+button.primary:hover {
+  background-color: #844dba;
+}
+button.primary:active {
+  background-color: #5b2f87;
+}
+
+button.secondary {
+  color: #1b1c1e;
+  background-color: transparent;
+  border: 1px solid #bcbcbd;
+}
+button.secondary:hover {
+  background-color: #e7e7e7;
+  border: 1px solid #bcbcbd;
+}
+button.secondary:active {
+  background-color: #bdbdbd;
+  border: 1px solid #bdbdbd;
+}
+
+.cancel-button {
+  font-size: 14px;
+  color: #0f75b8;
+}
+.cancel-button:hover {
+  border-bottom: 1px solid #0f75b8;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+}

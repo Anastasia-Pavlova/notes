@@ -1,0 +1,157 @@
+.header__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.img__note {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.search-input__wrapper {
+  position: relative;
+  margin: 24px 0;
+}
+.img__search {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0, -50%);
+}
+#inputSearch {
+  padding-left: 48px;
+  width: 308px;
+}
+
+.empty__container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.info-box {
+  width: 60px;
+  height: 60px;
+  background-color: #eeeff0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-box-inner {
+  width: 52px;
+  height: 52px;
+  background-color: #1b1c1e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty__container-head {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.empty__container-text {
+  text-align: center;
+}
+
+#addNote {
+  margin-bottom: 24px;
+}
+
+.notes__container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.new-note__container {
+  position: absolute;
+  max-width: 100%;
+  top: 142px;
+  left: 0;
+  padding: 20px 16px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px 0px #00000014;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.new-note__head {
+  display: flex;
+  justify-content: space-between;
+}
+.textarea__wrapper {
+  position: relative;
+}
+.textarea__wrapper button {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.note {
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 16px 0px #00000012;
+}
+.note-content__container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.note-tools__container {
+  display: flex;
+  gap: 10px;
+}
+.note__title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.note__text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.note__date {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#modal__delete {
+  padding: 24px;
+  border-radius: 16px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 6px 4px 0px #00000026;
+}
+.modal__delete-head {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+.modal__delete-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 24px;
+}
+.modal__delete-footer {
+  display: flex;
+  gap: 16px;
+}
+.modal__delete-footer > button {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+  text-align: center;
+}
