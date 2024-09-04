@@ -34,6 +34,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
 }
 button.primary {
   color: #fff;
@@ -63,6 +64,7 @@ button.secondary:active {
 .cancel-button {
   font-size: 14px;
   color: #0f75b8;
+  cursor: pointer;
 }
 .cancel-button:hover {
   border-bottom: 1px solid #0f75b8;

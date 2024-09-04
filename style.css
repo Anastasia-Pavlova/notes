@@ -107,6 +107,9 @@
   display: flex;
   gap: 10px;
 }
+.note-tool__button {
+  cursor: pointer;
+}
 .note__title {
   font-size: 14px;
   font-weight: 500;

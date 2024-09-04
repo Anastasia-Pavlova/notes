@@ -45,10 +45,10 @@ function init() {
                 <div class="note__date">${month} ${date.getDate()}</div>
             </div>
             <div class="note-tools__container">
-                <div onclick="editNote(${
+                <div class="note-tool__button" onclick="editNote(${
                   note.id
                 })"><img src="./icons/edit.png" width="15" height="12" alt="edit" /></div>
-                <div onclick="openDeleteNote(${
+                <div class="note-tool__button" onclick="openDeleteNote(${
                   note.id
                 })"><img src="./icons/delete.png" width="11" height="15" alt="delete" /></div>
             </div>
